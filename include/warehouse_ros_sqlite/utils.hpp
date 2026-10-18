@@ -33,10 +33,7 @@
 
 #include <warehouse_ros_sqlite/warehouse_ros_sqlite_export.hpp>
 
-#include <algorithm>
 #include <array>
-#include <climits>
-#include <cstdlib>
 #include <memory>
 #include <string>
 #include <stdexcept>

@@ -22,7 +22,7 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y ros-rolling-ament-lint-common python3-pip
     - name: Install clang-format
-      run: sudo apt-get install -y clang-format-14
+      run: sudo apt-get install -y clang-format-19
     - name: Install pre-commit
       run: sudo python -m pip install pre-commit --break-system-packages
     - name: Run pre-commit
